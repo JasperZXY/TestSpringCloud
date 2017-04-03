@@ -1,17 +1,15 @@
-package zxy.demo.springcloud.config;
+package zxy.demo.springcloud.configinvoke;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
- * 提供配置的服务
+ * 需要获取配置的服务
  * 
  * @author zxy
  *
  */
 @SpringBootApplication
-@EnableConfigServer
 public class MainApplicion {
 
 	public static void main(String[] args) throws Exception {
