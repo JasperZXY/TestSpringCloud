@@ -12,10 +12,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  */
 @SpringBootApplication
 @EnableConfigServer
-public class MainApplicion {
+public class ConfigApplicion {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(MainApplicion.class, args);
+		SpringApplication.run(ConfigApplicion.class, args);
 	}
 
 }
