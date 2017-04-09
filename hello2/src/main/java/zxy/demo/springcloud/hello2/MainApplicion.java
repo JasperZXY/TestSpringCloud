@@ -8,7 +8,10 @@ import org.springframework.boot.autoconfigure.*;
 public class MainApplicion {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(MainApplicion.class, args);
+		SpringApplication app = new SpringApplication(MainApplicion.class);
+		app.setBannerMode(Banner.Mode.OFF);
+		String[] newArgs = {"a=1"};
+		app.run(newArgs);
 	}
 
 }
